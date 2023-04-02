@@ -4,7 +4,7 @@ exports[`should return 200 and return logged user 1`] = `
 {
   "data": {
     "me": {
-      "name": "user#1",
+      "name": "guizolagamer#1",
     },
   },
 }
