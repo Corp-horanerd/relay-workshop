@@ -2,7 +2,7 @@ const path = require('path');
 
 const nodeExternals = require('webpack-node-externals');
 
-const cwd = process.cwd();
+const cwd = process.cwd('root');
 
 export const outputPath = path.join(cwd, '.webpack');
 export const outputFilename = 'bundle.js';
